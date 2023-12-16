@@ -1,0 +1,50 @@
+.backhover1{
+background-color: #f5f525;
+color: black;
+
+:hover{
+    background-color: #258f8f;
+}
+}
+
+.backhover2{
+    background-color: #258f8f;
+    color: black;
+    :hover{
+        background-color: #f5f525;
+
+    }
+}
+
+.circle1{
+    height: 50px; 
+    width: 50px; 
+    position: absolute;
+    background-color: rgb(228, 72, 72); 
+    border-radius: 50%; 
+    border: 1px solid black;
+    text-align: left; 
+}
+
+.circle2{
+    height: 50px; 
+    width: 50px; 
+    position: absolute;
+    background-color: rgb(37, 148, 216); 
+    border-radius: 50%; 
+    border: 1px solid black;
+    text-align: left; 
+}
+
+.circle3{
+    height: 50px; 
+    width: 50px; 
+    position: absolute;
+    background-color: rgb(87, 234, 79); 
+    border-radius: 50%; 
+    border: 1px solid black;
+    text-align: left; 
+}
+
+
+
