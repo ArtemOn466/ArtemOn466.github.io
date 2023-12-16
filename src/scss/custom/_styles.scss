@@ -1,0 +1,391 @@
+// Your custom styles
+@import "variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+.lawn-care-section {
+  padding: 30px 0;
+}
+
+.lawn-care-container {
+  justify-content: space-between;
+}
+
+.icon {
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(211, 211, 211);
+}
+
+.social-medias {
+  gap: 5px;
+}
+
+.logo span {
+  color: $green;
+}
+
+.logo {
+  font-size: 30px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.search input {
+  border-radius: 20px 20px 20px 20px;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid $green;
+  background: $green;
+  text-align: center;
+  color: #fff;
+  border-radius: 20px 20px 20px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  left: -42px;
+  top: 2px;
+  position: relative;
+}
+
+input {
+  padding: 5px 10px;
+  background-color: rgb(211, 211, 211);
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  gap: 80px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.navigation-section {
+  background-color: $green;
+}
+
+.nav {
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.active {
+  color: yellow;
+}
+
+.hero-section {
+  background-image: url("../../../img/Lawn.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.welcome {
+  color: yellow;
+}
+
+.hero-title {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.welcome {
+  text-transform: uppercase;
+}
+
+.hero-container {
+  bottom: 100px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.learn-button {
+  background-color: $green;
+  color: #fff;
+  max-width: 131px;
+}
+
+.learn-button:hover {
+  background-color: $green !important;
+  color: #fff !important;
+}
+
+.learn-button:focus {
+  background-color: $green !important;
+  color: #fff !important;
+}
+
+.learn-button:active {
+  background-color: $green !important;
+  color: #fff !important;
+}
+
+.hero-title,
+.yard {
+  color: #fff;
+}
+
+.hero-title {
+  max-width: 632px;
+  line-height: 70px;
+  font-family: "Poppins", sans-serif;
+}
+
+.services-section {
+  padding-bottom: 100px;
+}
+
+.services-container .icon {
+  border-radius: 50%;
+  background-color: rgb(235, 235, 235);
+  height: 80px;
+  width: 80px;
+  justify-content: center;
+  border: none;
+  margin: 10px auto;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.card-body {
+  padding-top: 5px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-text {
+  max-width: 190px;
+}
+
+.services-text {
+  margin-left: 30px;
+}
+
+.services-text h6 {
+  color: $green;
+}
+
+.services-text {
+  max-width: 250px;
+}
+
+.cards-services {
+  gap: 20px;
+}
+
+.card-services {
+  height: 345px;
+  width: 250px;
+}
+
+.services-button {
+  padding: 5px 5px 5px 5px;
+  background-color: $green;
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-button:hover {
+  background-color: $green !important;
+  color: #fff !important;
+}
+
+.welcome-section {
+  background-color: rgb(241, 241, 241);
+}
+
+.listing h6 {
+  color: $green;
+}
+
+.listing {
+  margin-left: 60px;
+  padding-top: 40px;
+}
+
+.listing p {
+  max-width: 448px;
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.listing h1 {
+  max-width: 580px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: black;
+}
+
+.list-item {
+  width: 550px;
+  height: 50px;
+  background-color: #fff;
+  padding: 5px 20px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  box-shadow: 1px 1px 1px 1px #000000;
+}
+
+.list-welcome {
+  flex-direction: column;
+  gap: 35px;
+}
+
+.welcome-section .card {
+  justify-content: flex-start;
+  display: flex;
+}
+
+.welcome-section .card-body {
+  padding: 0;
+}
+
+.welcome-section {
+  margin-bottom: 100px;
+}
+
+.card-tractor {
+  padding: 10px 5px;
+}
+
+.card-tractor .card-body {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.circle-arrow {
+  width: 40px;
+  height: 40px;
+  background-color: $green;
+  color: yellow;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  right: -20px;
+  position: relative;
+}
+
+.card-tractor .card-body {
+  display: flex;
+}
+
+.circle-play {
+  width: 80px;
+  height: 80px;
+  background-color: $green;
+  color: yellow;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  right: -40px;
+}
+
+.tractor {
+  position: relative;
+  display: flex;
+}
+
+.play-link {
+  align-items: center;
+  display: flex;
+}
+
+.tips-section h6 {
+  color: $green;
+}
+
+.tips-section {
+  padding-bottom: 100px;
+}
+
+.tips-words {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-tip {
+  height: 475px;
+  width: 350px;
+  box-shadow: none;
+}
+
+.cards-tips {
+  display: flex;
+}
+
+.col-md-4 {
+  justify-content: center;
+  display: flex;
+}
+
+.carousel-inner img {
+  height: 600px;
+}
+
+.contact-section {
+  background-color: $green;
+  height: 200px;
+}
+
+.number {
+  color: yellow;
+  margin-top: 80px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-words {
+  margin-top: 50px;
+  color: white;
+}
+
+.social-medias a {
+  color: gray;
+}
